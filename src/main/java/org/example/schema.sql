@@ -8,7 +8,7 @@ CREATE TABLE Book_Table
         ON UPDATE CASCADE;
 );
 
-CREATE TABLE BookCategory
+CREATE TABLE Book_Category
 (
     category_id   INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     category_name VARCHAR(50) NOT NULL UNIQUE
